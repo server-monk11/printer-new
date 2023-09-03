@@ -1,0 +1,100 @@
+.content-container{
+	margin-top: 55px;
+	font-size:20px;
+}
+
+.content-text :first-child{
+	margin-bottom:10px;
+}
+
+.download-button-container{
+	margin: 80px 0px 80px 0px;
+}
+
+.download-button-win10{
+	color: #0096d6;
+	border: 2px solid #0096d6;
+	border-radius: 5px 5px 5px 5px;
+    height: 48px;
+    min-width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ececec;
+    padding-left: 67px;
+    padding-right: 37px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position-x: 34px;
+    background-position-y: center;
+   
+}
+
+.download-button-win10:hover {
+    background: #0096d6;
+    color: #ffffff;
+    background-repeat: no-repeat; 
+    background-position-x: 34px;
+    background-position-y: center;
+}
+
+.availability-note-container span{
+	display: block;
+}
+
+.availability-images :first-child{
+	margin-right:10px;
+}
+
+.alternate-link-container{
+	margin:40px 0px 55px 0px;
+	font-size:16px;
+}
+
+.printer-image::before{
+	content: url(../../img/Win10_Image_sm.html);
+}
+
+@media only screen and (min-width: 1281px) {
+	.content-container{
+		margin-top:80px;
+		font-size:28px;
+	}
+	
+	.download-button-container{
+		margin: 90px 0px 180px 0px;
+	}
+	
+	.download-button-win10{
+		height:64px;
+		min-width:267px;
+		font-size:24px;
+		padding-right:50px;
+	}
+	
+	.availability-note-container span{
+		display: inline;
+	}
+	
+	.availability-note{
+		font-size:28px;
+		margin-right:10px;
+	}
+	
+	.availability-images img{
+		margin-top:5px;
+	}
+
+	.alternate-link-container{
+		width: 1100px;
+	}
+	
+	.image-container{
+		margin-top:70px;
+		width:490px;
+	}
+	
+	.printer-image::before{
+		content: url(../../img/Win10_Image_mid.png);
+	}
+}

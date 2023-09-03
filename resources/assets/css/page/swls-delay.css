@@ -1,0 +1,80 @@
+.swls-overlay-content {
+    position: fixed;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    display: none;
+    z-index: 21;
+    width: 800px;
+	height: 450px;
+	top:25%;
+}
+
+.swls-overlay-heading {
+	font-family: 'HPSimplified123';
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 126px;
+}
+
+.load-image {
+	margin: 60px;
+	text-align: center;
+}
+
+#swls-redirect-container {
+    padding: 50px 50px 0px 50px;
+}
+
+.swls-redirect-heading {
+	font-family: 'HPSimplified123';
+    font-size: 30px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.swls-redirect-detail {
+	font-family: 'HPSimplified123';
+	color: #000000;
+	font-size: 22px;
+	font-weight: Lighter;
+	margin-top: 69px;
+	width: 680px;
+}
+
+.hp-support-link {
+   color: #007dba;
+}
+
+.swlsRedDivider {
+	width: 687px;
+	height: 1px;
+	background: #cccccc;
+	margin-bottom:15px;
+}
+
+.btn-redirect {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.redirect-footer {
+	padding-bottom: 30px;
+	position: absolute;
+	bottom:0;
+}
+
+.btn-cancel {
+	background-color: #767676;
+    cursor: pointer;
+}
+
+.divSupport{
+	float:right;
+}
+
+html[dir="rtl"] .divCancel {
+	float:left;
+}
